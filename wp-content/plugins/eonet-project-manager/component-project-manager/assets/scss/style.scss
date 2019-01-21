@@ -1,0 +1,500 @@
+@import "../../../core/assets/scss/components/mixins";
+@import "../../../core/assets/scss/components/variables";
+
+.post-type-archive-eonet_project .page-title {
+  margin-bottom: .8em;
+}
+
+#eonet_project_add_members input#eonet-project-new-members {
+  width: 100%;
+  max-width: 90%;
+  border: 0;
+}
+
+#eonet_project_tasks{
+  div.inside{
+    padding: 20px 30px;
+  }
+}
+
+#eopm-tasks-metabox{
+  .eopm-tasks-metabox__item {
+    font-family: $font-family;
+    margin-bottom: 25px;
+    .eopm-tasks-metabox__item__header{
+      background: #f5f5f5;
+      background: -webkit-linear-gradient(0deg,#f5f5f5,#ffffff);
+      background: -o-linear-gradient(0deg,#f5f5f5,#ffffff);
+      background: -moz-linear-gradient(0deg,#f5f5f5,#ffffff);
+      background: linear-gradient(0deg,#f5f5f5,#ffffff);
+      &.ui-state-active {
+        @include background();
+        border: 0;
+        .ui-accordion-header-icon{
+          &:after{
+            content: "\f3d8";
+            color: #ffffff;
+          }
+        }
+      }
+      padding: 10px;
+      .eopm-tasks-metabox__item__title,
+      .eopm-tasks-metabox__item__members,
+      .ui-accordion-header-icon{
+        float: left;
+      }
+      .ui-accordion-header-icon{
+        background: none;
+        width: initial;
+        height: initial;
+        text-indent: inherit;
+        margin-right: 15px;
+        margin-left: 10px;
+        &:after{
+          font-family: "Ionicons";
+          content: "\f3d0";
+          color: #454545;
+          font-size: 18px;
+          top: 5px;
+          position: relative;
+        }
+      }
+      .eopm-tasks-metabox__item__title{
+        h4{
+          margin: 0;
+          font-size: 18px;
+          font-weight: 300;
+        }
+      }
+      .eopm-tasks-metabox__item__remove-button{
+        a{
+          float: right;
+          font-size: 20px;
+        }
+      }
+    }
+    .eopm-tasks-metabox__item__body{
+      padding: 0;
+    }
+    ul.eonet-project-new-members-list{
+      .eonet-project-remove-new-member{
+        color: $color1;
+      }
+    }
+  }
+}
+
+.eonet-project-tasks-inner-tabs{
+  ul{
+    list-style-type: none;
+    li{
+      display: block;
+    }
+    &.eonet-project-tasks-inner-nav{
+      text-align: center;
+      li{
+        &.is-active, &:hover{
+          a {
+            background: $color1;
+            color: #ffffff;
+          }
+        }
+        vertical-align:top;
+        display: inline-block;
+        font-size: 0;
+        background: #f7f7f7;
+        &:first-child{
+          padding: 10px 2px 10px 10px;
+          border-radius: 25px 0 0 25px;
+          margin-right: -2px;
+        }
+        &:last-child{
+          padding: 10px 10px 10px 2px;
+          border-radius: 0 25px 25px 0;
+          margin-left: -2px;
+        }
+        a{
+          color: #a8a8a8;
+          font-size: 16px;
+          display: block;
+          padding: 5px 15px;
+          border-radius: 25px;
+          i{
+            font-size: 1.2em;
+            vertical-align: middle;
+            padding-right: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.eopm-tasks-list{
+  .eopm-single-task{
+    border: 2px solid #e8e8e8;
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,.05);
+    margin-bottom: 20px;
+    background: #f9f9f9;
+    position: relative;
+    padding: 10px 20px;
+
+    .eopm-single-task__head {
+      .eopm-single-task__head__title-wrap {
+        float: left;
+        padding: 0;
+      }
+
+      .eo_pull_right {
+        > div {
+          float: left;
+          margin-left: 15px;
+
+          i {
+            line-height: 41px;
+            color: #CCC;
+            font-size: 26px;
+            &:hover {
+              color: #333;
+            }
+          }
+        }
+        .eopm-single-task__head__members-list {
+          list-style: none;
+          margin: 5px 0 0;
+          li {
+            padding: 0;
+            margin-right: 2px;
+
+            &:last-child {
+              margin-right: 0;
+            }
+          }
+        }
+        .handle-drag{
+          &:hover{
+            cursor: move;
+          }
+        }
+        .eopm-single-task__head__details-trigger {
+          i {
+            font-size: 32px;
+          }
+        }
+      }
+    }
+    .eopm-single-task__head,
+    .eopm-single-task__primary-details {
+      ul{
+        margin: 0;
+        padding: 0;
+        li{
+          display: inline-block;
+          padding-right: 10px;
+          &.is-right, &:last-child{
+            padding-right: 0;
+          }
+          &.eopm-single-task--done{
+            &:hover{
+              cursor: pointer;
+              i{
+                @include transitionIn(color, .4s);
+                color: #CCC;
+              }
+            }
+            i{
+              @include transitionIn(color, .2s);
+              padding-right: 0px;
+              color: #666;
+              font-size: 26px;
+              position: relative;
+              bottom: -4px;
+              &.ion-ios-checkmark, &.ion-android-checkbox{
+                color: #00b700;
+              }
+            }
+          }
+          i{
+            padding-right: 8px;
+            color: #666;
+            font-size: 18px;
+            position: relative;
+            bottom: -1px;
+          }
+        }
+      }
+    }
+
+    .eopm-single-task__primary-details {
+      padding: 0;
+      ul {
+        li {
+          padding-right: 20px;
+          &.eopm-single-task__urgent-string {
+            font-weight: bold;
+            i {
+              color: #ff0000;
+            }
+          }
+        }
+      }
+
+    }
+
+    .eopm-single-task__details {
+      display: none;
+      .eopm-single-task__details__title {
+        line-height: 1;
+        margin-top: 0.7em;
+        font-weight: bold;
+      }
+      p {
+        margin: 0;
+      }
+      p+p {
+        margin-top: 5px;
+      }
+    }
+    .eopm-single-task__editing-fields {
+      display: none;
+      background: #FFF;
+      border-radius: 10px;
+      padding: 20px 0;
+      margin-top: 20px;
+      .eo-submit-task{
+        margin: 20px 0 0 20px;
+      }
+    }
+    .eopm-single-task__actions-buttons {
+      padding-top: 10px;
+      border-top: 2px solid #e6e6e6;
+      margin-top: 10px;
+      text-align: right;
+      .eo-actions-task-buttons{
+        .eo_btn{
+          margin-right: 10px;
+
+          // If there isn't test in the button
+          i {
+            padding: 0;
+          }
+        }
+      }
+    }
+  }
+  .eopm-tasks-metabox__item__content{
+    background: #f7f7f7;
+    border-radius: 0 0 6px 6px;
+  }
+}
+
+.eopm-task-fields {
+  .eo_field_wrapper {
+    padding: 15px 25px;
+
+    //.eo_field_label,
+    .eo_field_container {
+      width: auto;
+    }
+
+    .eo_field_label {
+      width: 20%;
+    }
+  }
+}
+
+
+article.eonet_project + article.eonet_project {
+  margin-top: 20px;
+}
+
+//.eo-project-content-box{
+.eonet-project.hentry {
+  padding: 0;
+  font-family: $font-family;
+  $box-radius: 20px;
+  border: 1px solid #e8e8e8;
+  border-radius: $box-radius;
+
+  .avatar {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+  }
+
+  .eo-project-header{
+    padding: 30px 0;
+    border-radius: $box-radius $box-radius 0 0;
+    background: #f7f7f7;
+    //display: table;
+    width: 100%;
+    &.has-featured{
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      position: relative;
+      overflow: hidden;
+      color: #ffffff;
+
+      &:before{
+        width: 100%;
+        height:100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: rgba(0, 0, 0, 0.5);
+        content: "";
+        z-index: 0;
+      }
+      h4{
+        color: #ffffff;
+        i{
+          color: rgba(255,255,255,.8);
+        }
+      }
+    }
+
+    .eo_project_item_title {
+      margin: 0 20px 15px;
+      border-bottom: 1px solid #e8e8e8;
+
+      a {
+        display: block;
+      }
+    }
+
+    .eo_single_project_header_left,
+    .eo_single_project_header_right {
+      float: left;
+      width: 50%;
+      padding: 0 20px;
+    }
+    .eo-project-progress-wrapper,
+    .eo-project-members-wrapper,
+    > *{
+      position: relative;
+      z-index: 1;
+    }
+
+    .eo_single_project_header_section+.eo_single_project_header_section {
+      margin-top: 15px
+    }
+    .eo_single_project_dates_wrapper {
+      .eo_single_project_date {
+        .label {
+          font-weight: 700;
+        }
+      }
+    }
+    .eo-project-members-wrapper{
+      .eo-project-members-list {
+        margin: 10px 0 0;
+        padding: 0;
+        list-style-type: none;
+
+        .eo-project-member {
+          margin-right: 10px;
+
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+    h4{
+      font-size: 14px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #444;
+      i{
+        color: #CCC;
+      }
+    }
+  }
+  .eo-project-nav{
+    background: #ffffff;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    ul{
+      text-align: center;
+      list-style-type: none;
+      margin: 0;
+      li{
+        display: inline-block;
+        position: relative;
+        border-radius: $box-radius;
+        &.is-active,&:hover{
+          a{
+            background: #f7f7f7;
+            color: $color1;
+            text-transform: none;
+          }
+        }
+        a{
+          width: 160px;
+          border-left: 1px solid #e8e8e8;
+          padding: 10px 20px;
+          color: #a8a8a8;
+          font-weight: 300;
+          font-size: 18px;
+          display: inline-block;
+          &:focus{
+            outline: none;
+          }
+          i{
+            font-size: 28px;
+            line-height: initial;
+            display: block;
+          }
+        }
+        &:last-child{
+          a{
+            border-right: 1px solid #e8e8e8;
+          }
+        }
+      }
+    }
+  }
+  .eo-project-content{
+    padding: 30px;
+    border-radius: 0 0 $box-radius $box-radius;
+    .eo-project-info-box{
+      h4{
+        font-size: 26px;
+        font-weight: 300;
+        color: $color1;
+      }
+      ul{
+        margin: 0;
+        li{
+          list-style-type: none;
+          position: relative;
+          padding-left: 25px;
+          &:before{
+            content: "\f3d6";
+            font-family: "Ionicons";
+            position: absolute;
+            color: #a8a8a8;
+            left: 0;
+            top: -2px;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+  .eo_projects_loop_item_content_wrap {
+    padding: 20px 20px 0;
+    .eo_project_loop_content {
+      margin-top: 15px;
+    }
+    .eo_projects_open_project {
+      margin: 20px 0;
+    }
+  }
+}
+
+#eopm-task-creation .eopm-task-creation__fields {
+  display: none;
+}

@@ -1,0 +1,10 @@
+diff a/library/functions/frontpage-functions.php b/library/functions/frontpage-functions.php	(rejected hunks)
+@@ -104,7 +104,7 @@
+         if ($evolve_content_box1_button === false) {
+             $evolve_content_box1_button = '';
+         }
+-        $evolve_content_box1_icon = evolve_get_option('evl_content_box1_icon', 'fa-cube');
++        $evolve_content_box1_icon = evolve_get_option('evl_content_box1_icon', 'fas fa-cube');
+         if ($evolve_content_box1_icon === false) {
+             $evolve_content_box1_icon = '';
+         }

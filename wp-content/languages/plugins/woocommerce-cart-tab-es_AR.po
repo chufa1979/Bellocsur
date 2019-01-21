@@ -1,0 +1,60 @@
+# Translation of Plugins - WooCommerce Cart Tab - Stable (latest release) in Spanish (Argentina)
+# This file is distributed under the same license as the Plugins - WooCommerce Cart Tab - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-03-23 17:21:06+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es_AR\n"
+"Project-Id-Version: Plugins - WooCommerce Cart Tab - Stable (latest release)\n"
+
+#: includes/class-cart-tab-customizer.php:102
+msgid "Icon color"
+msgstr "Color del ícono"
+
+#: includes/class-cart-tab-customizer.php:96
+msgid "Background color"
+msgstr "Color de fondo"
+
+#: includes/class-cart-tab-customizer.php:85
+msgid "Position"
+msgstr "Posición"
+
+#: includes/cart-tab-templates.php:59
+msgid "Your Cart"
+msgstr "Tu carrito"
+
+#. Author URI of the plugin/theme
+msgid "http://jameskoster.co.uk"
+msgstr "http://jameskoster.co.uk"
+
+#. Author of the plugin/theme
+msgid "jameskoster"
+msgstr "jameskoster"
+
+#. Description of the plugin/theme
+msgid "Displays a sitewide link to the cart which reveals the cart contents on hover."
+msgstr "Muestra un enlace al carrito en todo el sitio, que revele el contenido del éste al pasar el cursor por encima."
+
+#. Plugin URI of the plugin/theme
+msgid "http://jameskoster.co.uk/tag/cart-tab/"
+msgstr "http://jameskoster.co.uk/tag/cart-tab/"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Cart Tab"
+msgstr "WooCommerce Cart Tab"
+
+#: includes/class-cart-tab-customizer.php:91
+msgid "Left"
+msgstr "Izquierda"
+
+#: includes/class-cart-tab-customizer.php:90
+msgid "Right"
+msgstr "Derecha"
+
+#: includes/class-cart-tab-customizer.php:58
+msgid "Cart Tab"
+msgstr "Pestaña de carrito de compras"

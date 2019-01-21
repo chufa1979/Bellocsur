@@ -1,0 +1,413 @@
+# Translation of Plugins - WooCommerce Print Invoice &amp; Delivery Note - Development (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - WooCommerce Print Invoice &amp; Delivery Note - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-11-23 15:08:25+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - WooCommerce Print Invoice &amp; Delivery Note - Development (trunk)\n"
+
+#. Author of the plugin/theme
+msgid "Tyche Softwares"
+msgstr "Tyche Softwares"
+
+#. #-#-#-#-#  woocommerce-delivery-notes-code.pot (WooCommerce Print Invoice &
+#. Delivery Note 4.3.6)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  woocommerce-delivery-notes-code.pot (WooCommerce Print Invoice &
+#. Delivery Note 4.3.6)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "https://www.tychesoftwares.com/"
+msgstr "https://www.tychesoftwares.com/"
+
+#: includes/wcdn-template-functions.php:253
+msgid "Invoice Date"
+msgstr "Fecha de factura"
+
+#: includes/class-wcdn-settings.php:421
+msgid "Remove"
+msgstr "Eliminar"
+
+#: includes/class-wcdn-settings.php:417
+msgid "Select"
+msgstr "Seleccionar"
+
+#: includes/class-wcdn-settings.php:354
+msgid "This section lets you customise the content. You can preview the <a href=\"%1$s\" target=\"%4$s\" class=\"%5$s\">invoice</a>, <a href=\"%2$s\" target=\"%4$s\" class=\"%5$s\">delivery note</a> or <a href=\"%3$s\" target=\"%4$s\" class=\"%5$s\">receipt</a> template."
+msgstr "Esta sección te permite personalizar el contenido. Puedes obtener una vista previa de la <a href=\"%1$s\" target=\"%4$s\" class=\"%5$s\">factura</a> , <a href=\"%2$s\" target=\"%4$s\" class=\"%5$s\">la nota de entrega</a> o la plantilla del <a href=\"%3$s\" target=\"%4$s\" class=\"%5$s\">recibo</a> ."
+
+#: includes/class-wcdn-settings.php:312
+msgid "The print buttons are available on the order listing and on the order detail screen."
+msgstr "Los botones de impresión están disponibles en el listado y pantalla de detalles de los pedidos."
+
+#: includes/class-wcdn-settings.php:309
+msgid "Admin"
+msgstr "Administrador"
+
+#: includes/class-wcdn-settings.php:257
+msgid "Number Suffix"
+msgstr "Sufijo del número"
+
+#: includes/class-wcdn-settings.php:246
+msgid "Number Prefix"
+msgstr "Prefijo del número"
+
+#: includes/class-wcdn-settings.php:242
+msgid "The next invoice number."
+msgstr "Siguiente número de factura."
+
+#: includes/class-wcdn-settings.php:235
+msgid "Next Number"
+msgstr "Siguiente número"
+
+#: includes/class-wcdn-settings.php:226
+msgid "Numbering"
+msgstr "Numeración"
+
+#: includes/class-wcdn-settings.php:171
+msgid "Pages & Buttons"
+msgstr "Páginas y botones"
+
+#: includes/class-wcdn-settings.php:157
+msgid "Add a footer imprint, instructions, copyright notes, e-mail, telephone, etc."
+msgstr "Añade además de notas a pie de página, notas de copyright etc."
+
+#: includes/class-wcdn-settings.php:147
+msgid "Add the shop policies, conditions, etc."
+msgstr "Añadir las políticas de la tienda, condiciones, etcetera."
+
+#: includes/class-wcdn-settings.php:146
+msgid "Policies"
+msgstr "Políticas"
+
+#: includes/class-wcdn-settings.php:137
+msgid "Add a personal close, notes or season greetings."
+msgstr "Añadir un cierre personal, notas o saludos según temporada."
+
+#: includes/class-wcdn-settings.php:127
+msgid "The postal address of the shop or even e-mail or telephone."
+msgstr "La dirección postal de la tienda o incluso el correo electrónico o el teléfono."
+
+#: includes/class-wcdn-settings.php:126
+msgid "Shop Address"
+msgstr "Dirección de tienda"
+
+#: includes/class-wcdn-settings.php:116
+msgid "Shop Name"
+msgstr "Nombre de la tienda"
+
+#: includes/class-wcdn-settings.php:112
+msgid "A shop logo representing your business. When the image is printed, its pixel density will automatically be eight times higher than the original. This means, 1 printed inch will correspond to about 288 pixels on the screen."
+msgstr "Un logotipo de tienda que representa tu empresa. Cuando se imprime la imagen, su densidad de píxeles automáticamente será ocho veces mayor que la original. Esto significa que 1 pulgada impresa corresponderá a unos 288 píxeles en la pantalla."
+
+#: includes/class-wcdn-settings.php:106
+msgid "Shop Logo"
+msgstr "Logo de la tienda"
+
+#: includes/class-wcdn-settings.php:88
+msgid "Template"
+msgstr "Plantilla"
+
+#: includes/class-wcdn-print.php:93
+msgid "Default"
+msgstr "Por defecto"
+
+#: includes/class-wcdn-print.php:69
+msgid "Show \"Print Receipt\" button"
+msgstr "Mostrar el botón \"Imprimir recibo\""
+
+#: includes/class-wcdn-print.php:57
+msgid "Show \"Print Delivery Note\" button"
+msgstr "Mostrar el botón de \"Imprimir nota de entrega\""
+
+#: includes/class-wcdn-print.php:45
+msgid "Show \"Print Invoice\" button"
+msgstr "Mostrar el botón de \"Imprimir factura\""
+
+#. Description of the plugin/theme
+msgid "Print Invoices & Delivery Notes for WooCommerce Orders."
+msgstr "Imprime facturas y notas de entrega para pedidos WooCommerce."
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Print Invoice & Delivery Note"
+msgstr "WooCommerce Print Invoice & Delivery Note"
+
+#: woocommerce-delivery-notes.php:248
+msgid "Settings"
+msgstr "Ajustes"
+
+#: woocommerce-delivery-notes.php:248
+msgid "Go to the settings page"
+msgstr "Ir a la página de ajustes"
+
+#: woocommerce-delivery-notes.php:90 woocommerce-delivery-notes.php:97
+msgid "Cheatin&#8217; huh?"
+msgstr "¿Haciendo trampas, eh?"
+
+#: templates/print-order/print-content.php:194
+msgid "Customer Note"
+msgstr "Nota del cliente"
+
+#: templates/print-order/print-content.php:145
+msgid "%s Files"
+msgstr "%s Ficheros"
+
+#: templates/print-order/print-content.php:144
+msgid "Download:"
+msgstr "Descarga:"
+
+#: templates/print-order/print-content.php:73
+msgid "Total"
+msgstr "Total"
+
+#: templates/print-order/print-content.php:72
+msgid "Quantity"
+msgstr "Cantidad"
+
+#: templates/print-order/print-content.php:71
+msgid "Price"
+msgstr "Precio"
+
+#: templates/print-order/print-content.php:70
+msgid "Product"
+msgstr "Producto"
+
+#: templates/print-order/print-content.php:37
+msgid "Shipping Address"
+msgstr "Dirección de Envío"
+
+#: templates/print-order/print-content.php:31
+#: templates/print-order/print-content.php:40
+msgid "N/A"
+msgstr "No Disponible"
+
+#: templates/print-order/print-content.php:28
+msgid "Billing Address"
+msgstr "Dirección de Facturación"
+
+#: includes/wcdn-template-functions.php:441
+msgid "Order Subtotal"
+msgstr "Subtotal del pedido"
+
+#: includes/wcdn-template-functions.php:429
+msgid "Refund"
+msgstr "Reembolso"
+
+#: includes/wcdn-template-functions.php:409
+#: includes/wcdn-template-functions.php:413
+msgid "(Includes %s)"
+msgstr "(Incluye %s)"
+
+#: includes/wcdn-template-functions.php:315
+msgid "SKU:"
+msgstr "SKU:"
+
+#: includes/wcdn-template-functions.php:282
+msgid "Telephone"
+msgstr "Teléfono"
+
+#: includes/wcdn-template-functions.php:269
+msgid "Payment Method"
+msgstr "Forma de Pago"
+
+#: includes/wcdn-template-functions.php:264
+msgid "Order Date"
+msgstr "Fecha de pedido"
+
+#: includes/wcdn-template-functions.php:259
+msgid "Order Number"
+msgstr "Numero de Pedido"
+
+#: includes/wcdn-template-functions.php:246
+msgid "Invoice Number"
+msgstr "Número de Factura"
+
+#: includes/class-wcdn-writepanel.php:260
+msgid "Invoice date: "
+msgstr "Fecha factura: "
+
+#: includes/class-wcdn-writepanel.php:259
+msgid "Invoice number: "
+msgstr "Número de factura: "
+
+#: includes/class-wcdn-writepanel.php:232
+msgid "Order Printing"
+msgstr "Impresión de pedidos"
+
+#: includes/class-wcdn-writepanel.php:218
+msgid "Print now"
+msgstr "Imprimir ahora"
+
+#: includes/class-wcdn-theme.php:119
+msgid "Open print view in browser"
+msgstr "Abrir vista de impresión en el navegador"
+
+#: includes/class-wcdn-theme.php:119
+msgid "Print:"
+msgstr "Imprimir:"
+
+#: includes/class-wcdn-theme.php:112
+msgid "Print your order"
+msgstr "Imprime tu pedido"
+
+#: includes/class-wcdn-settings.php:264
+msgid "This text will be appended to the invoice number."
+msgstr "Este texto se añadirá al número de factura."
+
+#: includes/class-wcdn-settings.php:253
+msgid "This text will be prepended to the invoice number."
+msgstr "Este texto se antecederá al número de factura."
+
+#: includes/class-wcdn-settings.php:227
+msgid "Create invoice numbers"
+msgstr "Crear números de factua"
+
+#: includes/class-wcdn-settings.php:193
+msgid "This includes the emails for a new, processing and completed order. On top of that the customer invoice email also includes the link."
+msgstr "Esto incluye los correos electrónicos para un pedido nuevo, procesado y completado. Además de eso, el correo electrónico de la factura del cliente también incluye el enlace."
+
+#: includes/class-wcdn-settings.php:189
+msgid "Show print link in customer emails"
+msgstr "Mostrar enlace de impresión en los correos electrónicos de los clientes"
+
+#: includes/class-wcdn-settings.php:188
+#: includes/wcdn-template-functions.php:275
+msgid "Email"
+msgstr "Email"
+
+#: includes/class-wcdn-settings.php:206
+msgid "Show print buttons on the \"My Account\" page"
+msgstr "Mostrar botón de impresión en la página “Mi cuenta” "
+
+#: includes/class-wcdn-settings.php:198
+msgid "Show print button on the \"View Order\" page"
+msgstr "Mostrar botón de impresión en la página \"Ver pedido“"
+
+#: includes/class-wcdn-settings.php:197
+msgid "My Account"
+msgstr "Mi cuenta"
+
+#: includes/class-wcdn-settings.php:184
+msgid "The endpoint is appended to the accounts page URL to print the order. It should be unique."
+msgstr "La variable se añade a la URL de la pagina de cuentas para imprimir el pedido. Debería ser única."
+
+#: includes/class-wcdn-settings.php:178
+msgid "Print Page Endpoint"
+msgstr "Variable de la página de imprimir"
+
+#: includes/class-wcdn-settings.php:95
+msgid "Style"
+msgstr "Estilo"
+
+#: includes/class-wcdn-settings.php:156
+msgid "Footer"
+msgstr "Pie de página"
+
+#: includes/class-wcdn-settings.php:136
+msgid "Complimentary Close"
+msgstr "Cierre gratuito"
+
+#: includes/class-wcdn-settings.php:122
+msgid "The shop name. Leave blank to use the default Website or Blog title defined in WordPress settings. The name will be ignored when a Logo is set."
+msgstr "El nombre de la tienda. Déjalo en blanco para usar el título por defecto de la web o blog definido en los ajustes de WordPress. El nombre se ignorará cuando se establezca un logotipo."
+
+#: includes/class-wcdn-settings.php:58 includes/class-wcdn-theme.php:57
+#: includes/class-wcdn-theme.php:94 includes/wcdn-template-functions.php:130
+msgid "Print"
+msgstr "Imprimir"
+
+#: includes/class-wcdn-settings.php:50
+msgid "Do you really want to reset the counter to zero? This process can't be undone."
+msgstr "¿De verdad quieres restablecer el contador a cero? Este proceso no se puede deshacer."
+
+#: includes/class-wcdn-print.php:81
+msgid "Print Orders"
+msgstr "Imprimir pedidos"
+
+#: includes/class-wcdn-print.php:80
+msgid "Print Order"
+msgstr "Print Order"
+
+#: includes/class-wcdn-print.php:79
+msgid "Orders"
+msgstr "Pedidos"
+
+#: includes/class-wcdn-print.php:78
+msgid "Order"
+msgstr "Ordenar"
+
+#: includes/class-wcdn-print.php:68
+msgid "Receipts created."
+msgstr "Recibos creados."
+
+#: includes/class-wcdn-print.php:67
+msgid "Receipt created."
+msgstr "Recibo creado."
+
+#: includes/class-wcdn-print.php:66
+msgid "Print Receipts"
+msgstr "Imprimir recibos"
+
+#: includes/class-wcdn-print.php:65
+msgid "Print Receipt"
+msgstr "Imprimir recibo"
+
+#: includes/class-wcdn-print.php:64
+msgid "Receipts"
+msgstr "Recibos"
+
+#: includes/class-wcdn-print.php:63
+msgid "Receipt"
+msgstr "Recibo"
+
+#: includes/class-wcdn-print.php:56
+msgid "Delivery Notes created."
+msgstr "Notas de entrega creadas."
+
+#: includes/class-wcdn-print.php:55
+msgid "Delivery Note created."
+msgstr "Nota de entrega creada."
+
+#: includes/class-wcdn-print.php:54
+msgid "Print Delivery Notes"
+msgstr "Imprimir notas de entrega"
+
+#: includes/class-wcdn-print.php:53
+msgid "Print Delivery Note"
+msgstr "Imprimir Nota de Entrega"
+
+#: includes/class-wcdn-print.php:52
+msgid "Delivery Notes"
+msgstr "Notas de entrega"
+
+#: includes/class-wcdn-print.php:51
+msgid "Delivery Note"
+msgstr "Nota de Entrega"
+
+#: includes/class-wcdn-print.php:44
+msgid "Invoices created."
+msgstr "Facturas creadas."
+
+#: includes/class-wcdn-print.php:43
+msgid "Invoice created."
+msgstr "Factura creada."
+
+#: includes/class-wcdn-print.php:42
+msgid "Print Invoices"
+msgstr "Imprimir facturas"
+
+#: includes/class-wcdn-print.php:41
+msgid "Print Invoice"
+msgstr "Imprimir Factura"
+
+#: includes/class-wcdn-print.php:40
+msgid "Invoices"
+msgstr "Facturas"
+
+#: includes/class-wcdn-print.php:39 includes/class-wcdn-settings.php:219
+msgid "Invoice"
+msgstr "Factura"
